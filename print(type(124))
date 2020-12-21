@@ -1,0 +1,28 @@
+print(type(124.4))
+print(type('privet'))
+print(type(True))
+print(int(45.36))
+print(float(45))
+print(type(45))
+print(bool(0))
+name='Milhouse'
+print(name)
+productMiniList=['lemonade','cocaCola']
+productList=['apple','milk',productMiniList,'tea']
+print(productList[2][1])
+def greeting():
+	print('Hello it\'s a Python function')
+greeting()
+
+def height(m,cm):
+	total = (m*100)+cm
+	print(str(total)+' cm tall')
+height(1,70)
+
+def calc(a,b):
+	total =a+b
+	return total
+summ = calc(16,5)
+print(summ)
+age = 18
+print(age <25)
